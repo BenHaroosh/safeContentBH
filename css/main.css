@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin: 0;
+}
+
+input{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    font-weight: bold;
+    background-color: khaki;
+    border: lavender solid 1px;
+    border-radius: 5px;
+    width: 170px;
+    height: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(177, 168, 91);
+    border: black solid 1px;
+}

@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color:lemonchiffon;
+  margin: 0;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+th,
+td {
+  height: 50px;
+  width: 50px;
+  border: black 2px solid;
+  background-color:white;
+}
+
+.sort {
+  position: relative;
+  left: -15%;
+  margin: 10px;
+}
+
+.back {
+    position: absolute;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    border-radius: 10px;
+    top: 0%;
+    right: 0%;
+    padding: 10px;
+}
+
+.back:hover{
+    cursor: pointer;
+    background-color: rgb(56, 105, 196);
+}

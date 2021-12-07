@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/admin.css">
+    <title>Admin</title>
+</head>
+
+<body onload="onInit()">
+    <h1>Hi Admin!</h1>
+    <select class="sort" onchange="onSetSort(this.value)">
+        <option value="NAME">Name</option>
+        <option value="LOGIN">Login</option>
+    </select>
+    <table>
+        <thead style="border-collapse: collapse;">
+            <tr>
+                <th>userName</th>
+                <th>password</th>
+                <th>lastLoginTime</th>
+                <th>isAdmin</th>
+            </tr>
+        </thead>
+        <tbody class="container">
+
+        </tbody>
+    </table>
+    <button class="back" onclick="onGoBack()">Back</button>
+
+    <script src="js/loginController.js"></script>
+    <script src="js/loginService.js"></script>
+    <script src="js/secretController.js"></script>
+    <script src="js/secretService.js"></script>
+    <script src="js/adminController.js"></script>
+    <script src="js/adminService.js"></script>
+</body>
+
+</html>
